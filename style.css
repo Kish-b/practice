@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+.bg-img-container {
+    background-image: url("dj3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 20px;
+
+}
+
+header .mail {
+    color: white;
+    font-size: .8rem;
+    margin-left: 45px;
+}
+
+header .logo {
+    max-width: 140px;
+    height: auto;
+    margin-left: 13%;
+
+
+
+}
+
+header .contact {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+
+header .call-icon {
+    max-width: 20px;
+    max-height: 20px;
+    height: auto;
+}
+
+
+.bt {
+    display: flex;
+    align-items: center;
+
+}
+
+.aa {
+    background-color: #bd2f52;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    width: 12rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    flex: 1;
+}
+
+.fb-icon {
+    max-width: 40px;
+    flex: 1;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    font-size: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+
+}
+
+nav .nav-btn {
+
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+
+    width: 12rem;
+
+    text-align: center;
+    font-weight: 600;
+}
+
+nav .nav-btn:hover {
+    background-color: #ba2b4f;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+
+    width: 70%;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 25px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+}
+
+.hero .line {
+    width: 8%;
+    height: 4px;
+    background-color: palevioletred;
+    border-radius: 12px;
+}
+
+.hero p {
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.hero-btn-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+
+}
+
+.hero-btn {
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+
+    width: 10rem;
+    border: #ba2b4f solid 2px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.hero-btn:hover {
+    background-color: #ba2b4f;
+}
+
+.events-container {
+    padding: 10px 6%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.event-card {
+    background-color: #1c1c2d;
+    flex-basis: 22%;
+    text-align: center;
+    width: 24%;
+}
+
+
+
+.event1-img {
+    background-image: linear-gradient(0deg,
+    #1c1c2d,
+    #1c1c2d00), url("event.jpg");
+
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 30px;
+    padding-bottom: 30px;
+    gap: 15px;
+}
+
+.event-card img {
+    max-width: 150px;
+    height: auto;
+    margin-top: 45%;
+}
+
+.event-card h1 {
+    color: white;
+    font-size: 1.7rem;
+    font-weight: bolder;
+
+}
+
+.event-card .circle {
+    width: 10px;
+    height: 10px;
+    background-color: #ba2b4f;
+    border-radius: 50%;
+}
+
+.event-card p {
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+}
+
+.event-card a{
+    color: #ba2b4f;
+    margin-bottom: 20px;
+}
