@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Events Box</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #ffffff;
+            background-color: #1a1a2e;
+        }
+
+        header {
+            background-color: #12122e;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        header nav a {
+            margin-left: 15px;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-image: url('your-hero-image-url.jpg'); /* Replace with actual background image URL */
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+            color: #ffcc33;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        .hero .btn {
+            background-color: #ff0055;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin-top: 20px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        /* Cards Section */
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 40px 20px;
+            gap: 20px;
+            background-color: #0a0a23;
+        }
+
+        .card {
+            background-color: #23233b;
+            width: 250px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .card img {
+            width: 60px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #ffcc33;
+        }
+
+        .card p {
+            font-size: 1rem;
+            color: #dddddd;
+        }
+
+        .card .btn {
+            display: inline-block;
+            background-color: #ff0055;
+            color: white;
+            padding: 10px 15px;
+            margin-top: 15px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /* Content Section */
+        .content {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .content h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #ffcc33;
+        }
+
+        .content p {
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto;
+            color: #cccccc;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .services {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .card {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">Events Box</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>EVENTS BOX</h1>
+        <p>Location, vente et installation de sonorisation, éclairage, karaoké et équipement DJ dans le Finistère.</p>
+        <a href="#" class="btn">Location</a>
+        <a href="#" class="btn">Vente</a>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="card">
+            <img src="icon-sound.png" alt="Sound">
+            <h3>Sonorisation</h3>
+            <p>Installation de sonorisation professionnelle.</p>
+            <a href="#" class="btn">Découvrir</a>
+        </div>
+
+        <div class="card">
+            <img src="icon-light.png" alt="Lighting">
+            <h3>Éclairage</h3>
+            <p>Installation d'éclairage pour événements.</p>
+            <a href="#" class="btn">Découvrir</a>
+        </div>
+
+        <div class="card">
+            <img src="icon-karaoke.png" alt="Karaoke">
+            <h3>Karaoke</h3>
+            <p>Services et équipement de karaoké.</p>
+            <a href="#" class="btn">Découvrir</a>
+        </div>
+
+        <div class="card">
+            <img src="icon-dj.png" alt="DJ Equipment">
+            <h3>Équipement DJ</h3>
+            <p>Location et vente d'équipement DJ.</p>
+            <a href="#" class="btn">Découvrir</a>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="content">
+        <h2>Location / vente de sono, éclairage, équipement DJ et karaoké</h2>
+        <p>
+            Vous avez besoin d'un matériel de sono, éclairage, deejaying ou karaoké de haute qualité, pour un usage
+            professionnel ou privé dans le Finistère ? Events Box vous propose, en vente et location, les références des
+            meilleures marques actuelles.
+        </p>
+    </section>
+
+</body>
+
+</html>

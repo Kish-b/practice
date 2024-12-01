@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>practice</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .bg-img-container {
+            background-image: url("dj3.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            object-fit: cover;
+            height: 80vh;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 90%;
+            padding: 20px;
+            
+
+        }
+
+        header .mail {
+            color: white;
+            font-size: .8rem;
+            margin-left: 45px;
+        }
+
+        header .logo {
+            max-width: 140px;
+            height: auto;
+            margin-left: 13%;
+
+
+
+        }
+
+        header .contact {
+            display: flex;
+            align-items: center;
+            color: white;
+            gap: 10px;
+        }
+
+        header .call-icon {
+            max-width: 20px;
+            max-height: 20px;
+            height: auto;
+        }
+
+
+        .bt {
+            display: flex;
+            align-items: center;
+
+        }
+
+        .aa {
+            background-color: #bd2f52;
+            font-size: 1rem;
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            width: 12rem;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: 400;
+            flex: 1;
+        }
+
+        .fb-icon {
+            max-width: 40px;
+            flex: 1;
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+            font-size: 1rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+
+        }
+
+        nav .nav-btn {
+
+            font-size: 1rem;
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+
+            width: 12rem;
+
+            text-align: center;
+            font-weight: 600;
+        }
+
+        nav .nav-btn:hover {
+            background-color: #ba2b4f;
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            
+            width: 40%;
+            text-align: center;
+            align-items: center;
+            margin-top: 100px;
+            gap: 25px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            text-transform: uppercase;
+            color: white;
+            font-weight: 900;
+        }
+
+        .hero .line {
+            width: 8%;
+            height: 4px;
+            background-color: palevioletred;
+            border-radius: 12px;
+        }
+
+        .hero p {
+            text-align: center;
+            font-size: 1.5rem;
+            color: white;
+        }
+        
+        .hero-btn-container {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+
+        }
+
+        .hero-btn {
+            font-size: 1rem;
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+
+            width: 10rem;
+            border: #ba2b4f solid 2px;
+            text-align: center;
+            font-weight: 400;
+        }
+        .hero-btn:hover{
+            background-color: #ba2b4f ;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!------------------------- Header -------------------------------------- -->
+
+    <!-- <div class="bg-img-container">
+
+    </div> -->
+    <section class="bg-img-container">
+
+        <header>
+            <p class="mail">dummy kishorewfsrfdgdfgdfgsdfgdfgdsf gmail dot com</p>
+
+            <img src="logo.png" alt="" class="logo">
+
+            <div class="contact">
+                <img src="https://nz.rs-cdn.com/images/nwsxc-8040c/page/d3671848a74d487375a99155e7b54fce__48e9/w1200.png"
+                    alt="" class="call-icon">
+
+                <div class="info">
+                    <p>service number</p>
+                    <p style="font-weight: bolder;">1234567890</p>
+
+                </div>
+            </div>
+
+
+            <div class="bt">
+
+                <div class="aa"> <a href="">Get every thing</a> </div>
+                <img src="https://th.bing.com/th/id/OIP.6tz6Y4WLFIyaPYrcf8bicgAAAA?w=455&h=455&rs=1&pid=ImgDetMain"
+                    alt="" class="fb-icon">
+
+
+            </div>
+
+        </header>
+
+        <nav>
+            <div class="nav-btn"> <a href="">Home</a> </div>
+            <div class="nav-btn"> <a href="">Events</a> </div>
+            <div class="nav-btn"> <a href="">location</a> </div>
+            <div class="nav-btn"> <a href="">Time</a> </div>
+            <div class="nav-btn"> <a href="">Pass</a> </div>
+
+            <div class="nav-btn"> <a href="">Boom</a> </div>
+            <div class="nav-btn"> <a href="">Pass</a> </div>
+
+            <div class="nav-btn"> <a href="">Boom</a> </div>
+
+        </nav>
+
+
+        <div class="hero">
+            <h1>Events box</h1>
+            <div class="line"> </div>
+            <p>Naan Chinna Paiyenpaiyen
+                Nee Kanna Veiyenveiyen
+                Naan Sonna Seiyen
+                Va Vayil Vazhai Vaayen
+            </p>
+            <div class="hero-btn-container">
+                <div class="hero-btn"> <a href="">Time</a> </div>
+                <div class="hero-btn"> <a href="">Pass</a> </div>
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+
+
+</body>
+
+</html>

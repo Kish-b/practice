@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practice</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .bg-img-container {
+            background-image: url("dj3.jpg");
+            height: 80vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 90%;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7); /* semi-transparent background for readability */
+            border-radius: 10px;
+        }
+
+        header .mail {
+            color: white;
+            font-size: 0.9rem;
+        }
+
+        header .logo {
+            max-width: 100px;
+            height: auto;
+        }
+
+        header .contact {
+            display: flex;
+            align-items: center;
+            color: white;
+            gap: 10px;
+        }
+
+        header .contact img.call-icon {
+            max-width: 30px;
+            height: auto;
+        }
+
+        header .contact-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+        }
+
+        header .contact-info p {
+            margin: 0;
+            font-size: 0.8rem;
+        }
+
+        header .cta {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        header .cta .aa {
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            background-color: #ff3366;
+            border-radius: 5px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            text-align: center;
+            display: block;
+        }
+
+        header .cta .fb-icon {
+            width: 32px;
+            height: 32px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="bg-img-container">
+        <header>
+            <!-- Email Information -->
+            <p class="mail">dummy kishorewfsrfdgdfgdfgsdfgdfgdsf gmail dot com</p>
+
+            <!-- Logo -->
+            <img src="logo.png" alt="Logo" class="logo">
+
+            <!-- Contact Info -->
+            <div class="contact">
+                <img src="https://nz.rs-cdn.com/images/nwsxc-8040c/page/d3671848a74d487375a99155e7b54fce__48e9/w1200.png" alt="Call Icon" class="call-icon">
+                <div class="contact-info">
+                    <p>Service number</p>
+                    <p>1234567890</p>
+                </div>
+            </div>
+
+            <!-- Call-to-action and social icons -->
+            <div class="cta">
+                <a href="#" class="aa">Get Everything</a>
+                <img src="https://th.bing.com/th/id/OIP.6tz6Y4WLFIyaPYrcf8bicgAAAA?w=455&h=455&rs=1&pid=ImgDetMain" alt="Facebook Icon" class="fb-icon">
+            </div>
+        </header>
+    </section>
+
+</body>
+
+</html>

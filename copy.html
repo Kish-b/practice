@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practice</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .bg-img-container {
+            background-image: url("dj3.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            object-fit: cover;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 20px;
+            margin-bottom: 5px;
+        }
+
+        header .mail {
+            color: white;
+            font-size: 0.8rem;
+            margin-left: 45px;
+        }
+
+        header .logo {
+            max-width: 140px;
+            height: auto;
+            margin-left: 13%;
+        }
+
+        header .contact {
+            display: flex;
+            align-items: center;
+            color: white;
+            gap: 10px;
+        }
+
+        header .call-icon {
+            max-width: 20px;
+            max-height: 20px;
+            height: auto;
+        }
+
+        .bt {
+            display: flex;
+            align-items: center;
+        }
+
+        .aa {
+            background-color: #bd2f52;
+            font-size: 1rem;
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            width: 12rem;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: 400;
+        }
+
+        .fb-icon {
+            max-width: 40px;
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+            font-size: 1rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        nav .nav-btn {
+            font-size: 1rem;
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            width: 12rem;
+            text-align: center;
+            font-weight: 800;
+        }
+
+        nav .nav-btn:hover {
+            background-color: #ba2b4f;
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            background-color: aqua;
+            width: 50%;
+            text-align: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            header .mail, header .contact, header .bt {
+                margin: 10px 0;
+            }
+
+            header .logo {
+                margin-left: 0;
+            }
+
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav .nav-btn {
+                width: auto;
+                margin-bottom: 10px;
+            }
+
+            .hero {
+                width: 90%;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .aa {
+                width: 10rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .bg-img-container {
+                padding: 0 10px;
+            }
+
+            header {
+                padding: 10px;
+            }
+
+            nav {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            nav .nav-btn {
+                font-size: 0.9rem;
+                width: auto;
+                padding: 8px 10px;
+            }
+
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .aa {
+                padding: 8px 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="bg-img-container">
+        <header>
+            <p class="mail">dummy kishorewfsrfdgdfgdfgsdfgdfgdsf gmail dot com</p>
+            <img src="logo.png" alt="Logo" class="logo">
+            <div class="contact">
+                <img src="https://nz.rs-cdn.com/images/nwsxc-8040c/page/d3671848a74d487375a99155e7b54fce__48e9/w1200.png" alt="Call Icon" class="call-icon">
+                <div class="info">
+                    <p>service number</p>
+                    <p style="font-weight: bolder;">1234567890</p>
+                </div>
+            </div>
+            <div class="bt">
+                <div class="aa"> <a href="#">Get everything</a> </div>
+                <img src="https://th.bing.com/th/id/OIP.6tz6Y4WLFIyaPYrcf8bicgAAAA?w=455&h=455&rs=1&pid=ImgDetMain" alt="Facebook Icon" class="fb-icon">
+            </div>
+        </header>
+
+        <nav>
+            <div class="nav-btn"> <a href="#">Home</a> </div>
+            <div class="nav-btn"> <a href="#">Events</a> </div>
+            <div class="nav-btn"> <a href="#">Location</a> </div>
+            <div class="nav-btn"> <a href="#">Time</a> </div>
+            <div class="nav-btn"> <a href="#">Pass</a> </div>
+            <div class="nav-btn"> <a href="#">Boom</a> </div>
+        </nav>
+
+        <div class="hero">
+            <h1>Events box</h1>
+            <p>Sound, Lighting, and DJ Equipment</p>
+            <div>
+                <div class="nav-btn"> <a href="#">Time</a> </div>
+                <div class="nav-btn"> <a href="#">Pass</a> </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
